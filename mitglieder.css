@@ -1,0 +1,260 @@
+html,
+body
+{
+ background-color: transparent;
+ color: #C0C0C0;
+}
+
+a {
+    
+}
+
+a.tooltip span
+{
+  display: none;
+}
+
+a.tooltip
+{
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+
+a.tooltip:hover span
+{
+  position: absolute;
+  display: block;
+  width: 250px;
+  top: 1.5em;
+  left: 2em;
+  border: 1px solid black;
+  background-color:white;
+  padding: 0.2em;
+  z-index: 50;
+  text-align: center;
+}
+
+.waffen
+{
+    text-align: right;
+}
+
+.kopf 
+{background-image: url(Schriftrolle.png);
+background-repeat: no-repeat;
+background-position: center;
+width: 420px;
+height: 270px;
+
+}
+
+
+
+div.kopf td table {
+margin:auto;
+}
+
+table.member:nth-child(odd)
+{background-color: transparent;}
+
+table.member:nth-child(even)
+{background-color: #090909;}
+
+table.odd
+{background-color: transparent;}
+
+table.even
+{background-color: #160601;}
+
+table.member
+{
+    width: 490px;
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10 10 10 0;    
+}
+
+.abstand
+{
+    width: 240px;
+    height: 50px;
+}
+
+.char img
+{
+    min-height: 200px;
+    min-width: 200px;
+    line-height: 225px;
+    vertical-align: middle;
+    max-width: 225px;
+    max-height: 225px;
+    padding: 0;
+    margin: 0;    
+}
+
+.waffen img
+{
+    min-height: 25px;
+    min-width: 25px;
+    line-height: 25px;
+    vertical-align: middle;
+    max-width: 25px;
+    max-height: 25px;
+    padding-right: 20px;
+    padding-left: 10px;
+    margin: 0;
+    
+}
+
+.rustung img
+{
+    min-height: 25px;
+    min-width: 25px;
+    line-height: 25px;
+    vertical-align: middle;
+    max-width: 25px;
+    max-height: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.gear
+{
+   
+}
+
+.lvl
+{
+    
+    width: 30px;
+    line-height: 48px;
+    vertical-align: middle;
+    min-width: 30px;
+    max-width: 30px;
+}
+
+.info
+{    
+    width: 75px;
+    text-align: center;    
+}
+
+.daten
+{
+    text-align: left;
+}
+
+.daten img
+{
+    min-height: 20px;
+    min-width: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    max-width: 20px;
+    max-height: 20px;
+    padding: 0;
+    margin: 0;    
+}
+
+.character-class-1 td.char, .character-class-1 td.char {/* Krieger */
+color:#C69B6D;
+text-decoration:none!important;
+}
+.character-class-1 td.char{
+color:#C69B6D;
+font-weight:bold;
+text-decoration:none!important;
+}
+.character-class-2 td.char, .character-class-2 td.char {/* Paladin */
+color:#F48CBA;
+text-decoration:none!important;
+}
+.character-class-2 td.char{
+color:#F48CBA;
+font-weight:bold;
+text-decoration:none!important;
+}
+.character-class-3 td.char, .character-class-3 td.char {/* JÃ¤ger */
+color:#AAD372;
+text-decoration:none!important;
+}
+.character-class-3 td.char{
+color:#AAD372;
+font-weight:bold;
+text-decoration:none!important;
+}
+.character-class-4 td.char, .character-class-4 td.char {/* Schurke */
+color:#FFF468;
+text-decoration:none!important;
+}
+.character-class-4 td.char{
+color:#FFF468;
+font-weight:bold;
+text-decoration:none!important;
+}
+.character-class-5 td.char, .character-class-5 td.char {/* Priester */
+color:#FFFFFF;
+text-decoration:none!important;
+}
+.character-class-5 td.char{
+color:#FFFFFF;
+font-weight:bold;
+text-decoration:none!important;
+}
+.character-class-6 td.char, .character-class-6 td.char {/* Todesritter */
+color:#C41E3B;
+text-decoration:none!important;
+}
+.character-class-6 td.char{
+color:#C41E3B;
+font-weight:bold;
+text-decoration:none!important;
+}
+.character-class-7 td.char, .character-class-7 td.char {/* Schamane */
+color:#2359FF;
+text-decoration:none!important;
+}
+.character-class-7 td.char{
+color:#2359FF;
+font-weight:bold;
+text-decoration:none!important;
+}
+.character-class-8 td.char, .character-class-8 td.char {/* Magier */
+color:#68CCEF;
+text-decoration:none!important;
+}
+.character-class-8 td.char{
+color:#68CCEF;
+font-weight:bold;
+text-decoration:none!important;
+}
+.character-class-9 td.char, .character-class-9 td.char {/* Hexenmeister */
+color:#9382C9;
+text-decoration:none!important;
+}
+.character-class-9 td.char{
+color:#9382C9;
+font-weight:bold;
+text-decoration:none!important;
+}
+.character-class-10 td.char, .character-class-10 td.char {/* Druide */
+color:#00FFBA;
+text-decoration:none!important;
+}
+.character-class-10 td.char{
+color:#00FFBA;
+font-weight:bold;
+text-decoration:none!important;
+}
+.character-class-11 td.char, .character-class-11 td.char {/* Druide */
+color:#FF7D0A;
+text-decoration:none!important;
+}
+.character-class-11 td.char{
+color:#FF7C0A;
+font-weight:bold;
+text-decoration:none!important;
+}
